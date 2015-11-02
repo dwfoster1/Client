@@ -58,8 +58,8 @@ public class MainActivity extends Activity {
 
     public class MyClientTask extends AsyncTask<Void, Void, Void> {
 
-        String dstAddress;
-        int dstPort;
+        String dstAddress = "152.30.5.2";
+        int dstPort = 8080;
         String response = "";
 
         MyClientTask(String addr, int port){
