@@ -44,6 +44,7 @@ public class MainActivity extends Activity {
             }});
     }
 
+
     OnClickListener buttonConnectOnClickListener =
             new OnClickListener(){
 
