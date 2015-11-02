@@ -70,5 +70,4 @@ public class Client extends AsyncTask<Void, Void, Void> {
         textResponse.setText(response);
         super.onPostExecute(result);
     }
-
 }
